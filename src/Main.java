@@ -1,17 +1,86 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
 
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
+    //task1
+    System.out.println("task1");
+    for(int i = 1;i< 10;i++){
+
+        System.out.print(i + " ");
+    }
+    System.out.println();
+
+
+    //task 2
+    System.out.println("task 2");
+    for(int i = 10;i >0;i--){
+
+        System.out.print(i + " ");
         }
+        System.out.println();
+
+
+    //task 3
+        System.out.println("task 3");
+        for (int i = 0; i < 17; i+=2) {
+
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+
+        //task 4
+        System.out.println("task 4");
+        for (int i = 10; i >= -10 ; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        //task 5
+        System.out.println("task 5");
+        for (int i = 1984; i <= 2096 ; i += 4) {
+            System.out.print(i + "  Год является високосным ");
+        }
+        System.out.println();
+
+        //task 6
+        System.out.println("task 6");
+        for (int i = 7; i <= 98 ; i += 7) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        //task 7
+        System.out.println("task 7");
+        for (int i = 1; i <= 512 ; i *= 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        //task 8
+        System.out.println("task 8");
+        int money = 0;
+        for (int i = 1; i <= 12 ; i++) {
+            money += 29000;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + money + " рублей");
+        }
+        System.out.println();
+
+        //task 9
+        System.out.println("task 9");
+        money = 0;
+        for (int i = 1; i <= 12 ; i++) {
+            money += 29000;
+            money *= 1.01;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + money + " рублей");
+        }
+        System.out.println();
+
+        //task `0
+        System.out.println("task 10");
+        for (int i = 1; i <= 10 ; i++) {
+            System.out.println("2*" + i + "=" + (2 * i));
+        }
+        System.out.println();
     }
 }
